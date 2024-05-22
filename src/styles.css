@@ -1,0 +1,30 @@
+body {
+  background: #b88981;
+}
+.navbar {
+  position: relative;
+  bottom: -60px;
+}
+.grey-candle {
+  position: relative;
+  left: -50px;
+}
+.header {
+  background: #89645c;
+  padding: 0;
+}
+.flame-icon {
+  color: white;
+  font-size: 35px;
+}
+.end-icons {
+  color: white;
+  font-size: 24px;
+}
+h1 {
+  position: relative;
+  top: -300px;
+  right: -200px;
+  color: white;
+  font-size: 100px;
+}
