@@ -1,6 +1,10 @@
 body {
   background: #b88981;
 }
+.sub-heading {
+  font-size: 13px;
+  font-family: "Spectral", serif;
+}
 .navbar {
   position: relative;
   bottom: -60px;
@@ -14,17 +18,95 @@ body {
   padding: 0;
 }
 .flame-icon {
-  color: white;
-  font-size: 35px;
+  color: rgb(223, 135, 21);
+  font-size: 30px;
 }
 .end-icons {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
 }
+small {
+  font-family: "Roboto Mono", monospace;
+}
+
 h1 {
-  position: relative;
-  top: -300px;
-  right: -200px;
+  position: absolute;
+  top: 280px;
+  right: 350px;
   color: white;
   font-size: 100px;
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+h3 {
+  font-style: oblique;
+}
+.first-paragraph,
+.second-paragraph {
+  font-family: "Spectral", serif;
+}
+.official-shops {
+  padding: 10px 60px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.official-shops a {
+  background: #89645c;
+  text-decoration: none;
+  padding: 8px;
+  color: black;
+  font-family: "Spectral", serif;
+}
+.official-shops a:hover {
+  color: rgb(34, 71, 10);
+  text-decoration: underline;
+}
+.official-shops .shop-one {
+  background-image: url(../images/candlebckg.jpg);
+  border: 1px solid lightgray;
+
+  padding: 50px;
+  margin: 5px;
+}
+.official-shops .shop-two {
+  background-image: url(../images/soapbckg.jpg);
+  border: 1px solid lightgray;
+
+  padding: 50px;
+  margin: 5px;
+}
+.official-shops .shop-three {
+  background-image: url(../images/eoilsbckg.jpg);
+  border: 1px solid lightgray;
+
+  padding: 50px;
+  margin: 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+.contact-icons a:hover {
+  color: rebeccapurple;
+  font-size: 18px;
+}
+form {
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 280px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 10px;
+}
+form .subscribe {
+  background: black;
+  border: none;
+  color: white;
+}
+footer {
+  background: #edddce;
 }

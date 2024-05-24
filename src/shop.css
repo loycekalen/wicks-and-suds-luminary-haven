@@ -1,0 +1,58 @@
+body {
+  background: #edddce;
+}
+.sub-heading {
+  font-size: 13px;
+  font-family: "Spectral", serif;
+}
+.navbar {
+  background: #9b5345;
+}
+.flame-icon {
+  color: rgb(223, 135, 21);
+  font-size: 30px;
+}
+.end-icons {
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-style: italic;
+  font-size: 50px;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+small {
+  font-family: "Roboto Mono", monospace;
+}
+form {
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 280px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 10px;
+}
+form .subscribe {
+  background: black;
+  border: none;
+  color: white;
+}
+footer {
+  background: #f2f2f2;
+}
+.contact-icons a:hover {
+  color: rebeccapurple;
+  font-size: 18px;
+}

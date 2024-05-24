@@ -1,0 +1,76 @@
+body {
+  background: #b88981;
+}
+.sub-heading {
+  font-size: 13px;
+  font-family: "Spectral", serif;
+}
+.navbar {
+  position: relative;
+  bottom: -60px;
+}
+.header {
+  background: #89645c;
+  padding: 0;
+  background-image: url(../images/brownbg.jpg);
+}
+.flame-icon {
+  color: rgb(223, 135, 21);
+  font-size: 30px;
+}
+.end-icons {
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  right: 450px;
+  color: white;
+  font-size: 100px;
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+h3 {
+  font-style: oblique;
+  font-size: 40px;
+}
+p {
+  font-family: "Spectral", serif;
+  font-size: 17px;
+}
+ul .footer {
+  margin: 0;
+  padding: 0;
+}
+li.values {
+  list-style: disc;
+}
+li {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+.contact-icons a:hover {
+  color: rebeccapurple;
+  font-size: 18px;
+}
+small {
+  font-family: "Roboto Mono", monospace;
+}
+form {
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 280px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 10px;
+}
+form .subscribe {
+  background: black;
+  border: none;
+  color: white;
+}
+footer {
+  background: #edddce;
+}
